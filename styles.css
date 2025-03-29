@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  
+}
+@font-face {
+  font-family: Outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 16px;
+  
+  
+}
+.youngserif {
+  font-family: "Young Serif";
+}
+#MAIN_DIV {
+  margin: 8% 20%;
+  padding: 35px 35px 0px 35px;
+  border-radius: 20px;
+  background-color: white;
+
+}
+.PREP_DIV {
+  background-color: hsl(330, 100%, 98%);
+  padding: 40px;
+  border-radius: 20px;
+}
+#omelette-img {
+  border-radius: 20px;
+}
+h1 {
+  color: black;
+  
+}
+.rows {
+  display: flex;
+  padding: 0 5%;
+
+
+}
+.rows:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+.rows p {
+  width: 50%;
+  color: hsl(30, 10%, 34%);
+}
+.brown {
+  color: hsl(14, 45%, 36%);
+}
+li::marker {
+  font-size: 0.4rem;
+  font-family: outfit, sans-serif;
+  font-weight: 400;
+  
+}
+#last-calories-div {
+  padding-bottom: 20px;
+}
