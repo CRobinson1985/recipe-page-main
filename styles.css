@@ -79,7 +79,6 @@ li::marker {
   ol, ul {
     padding: 5%;
   }
-    
 }
 
 @media (min-width: 601px) {
