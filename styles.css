@@ -74,12 +74,14 @@ li::marker {
   #MAIN_DIV {
   margin: 0;
   border-radius: 0;
-  padding: 0%;
+  padding: 7%;
     } 
+  ol, ul {
+    padding: 5%;
+  }
+    
 }
-#text-div {
-  padding: 8%
-}
+
 @media (min-width: 601px) {
   #MAIN_DIV {
     margin: 5%;
@@ -88,6 +90,7 @@ li::marker {
 @media (min-width: 768px) {
   #MAIN_DIV {
     margin: 5% 10%;
+}
 }
 @media (min-width: 992px) {
   #MAIN_DIV {
